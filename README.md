@@ -4,9 +4,9 @@ This sample micropost project was made using Michael Hartl's [Ruby on Rails tuto
 
 Users can create a basic account with their name and email, as well as edit, and delete their user info. Users can also write microposts, similar to a tweet. 
 My end result toy_app is deployed [HERE!](https://agile-gorge-31668.herokuapp.com/) <br>As this is a basic app, you will need to manually enter the path of the microposts URL into the browser bar to make a post, or click [HERE :)](https://agile-gorge-31668.herokuapp.com/microposts)
-## Disclaimer
+## Disclaimer⚠️
 ---
-⚠️ This app was created for my own personal learningand is not intended for professional use 
+ This app was created for my own personal learning and is not intended for professional use 
 
 ## Dependencies
 ---

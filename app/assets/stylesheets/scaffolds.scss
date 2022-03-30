@@ -1,17 +1,16 @@
-  body{
-    height: calc(100vh - 8em);
-    padding: 4em;
-    color: rgba(255,255,255,.75);
-    background-color: rgb(124, 124, 124);  
-    text-align-last: center;
-  }
+body {
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255,255,255,.75);
+  background-color: rgb(124, 124, 124);  
+  text-align-last: center;}
 
 
 body, p, ol, ul, td {
   font-family: 'Poppins', sans-serif;
   font-size: 1em;
-  padding: 4em auto;
-  line-height: 35px; }
+  line-height: 35px;}
+  
 
 pre {
   background: #24c99e;
@@ -41,17 +40,18 @@ div.actions {
 #notice {
   color: rgb(43, 133, 43); }
 
+
 .field_with_errors {
   padding: 2px;
-  background-color: rgb(204, 58, 58);
+  background-color: rgb(189, 25, 25);
   display: table; }
 
 #error_explanation {
   width: 450px;
-  border: 2px solid rgb(204, 58, 58);
+  border: 2px solid rgb(189, 25, 25);
   padding: 7px 7px 0;
   margin-bottom: 20px;
-  background-color: #f0f0f0; }
+  background-color: rgb(124, 124, 124); }
 
 #error_explanation h2 {
   text-align: left;
@@ -75,25 +75,17 @@ table {
   margin: 10px 10px;
 }
 
-#micropost_content {
-  border-radius: 12px
-}
-
-#micropost_user_id {
-  border-radius: 10px
-}
-
 .button {
-  border-radius: 12px;
-  font-size: large;
+  border-radius: 10px;
+  font-size: medium;
 }
 
 .line-1{
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  overflow: hidden;
+  border-right: .15em;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
   animation: 
     typing 1.5s steps(12),
     blink-caret 1s step-end;

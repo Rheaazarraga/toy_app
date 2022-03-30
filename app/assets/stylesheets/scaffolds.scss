@@ -1,15 +1,17 @@
 body {
-  background-color: #fff;
+  background: #24c99e;
   color: #333;
-  margin: 33px; }
+  margin: 33px; 
+  display: block;
+  text-align-last: center;}
 
 body, p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
   line-height: 18px; }
 
 pre {
-  background-color: #eee;
+  background: #24c99e;
   padding: 10px;
   font-size: 11px; }
 
@@ -31,10 +33,10 @@ td {
 
 div.field,
 div.actions {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;}
 
 #notice {
-  color: green; }
+  color: rgb(43, 133, 43); }
 
 .field_with_errors {
   padding: 2px;
@@ -62,4 +64,23 @@ div.actions {
   list-style: square; }
 
 label {
-  display: block; }
+  display: block;
+  margin: 10px 10px 8px 8px; }
+
+table {
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+#micropost_content {
+  border-radius: 12px
+}
+
+#micropost_user_id {
+  border-radius: 10px
+}
+
+.button {
+  border-radius: 12px;
+  font-size: large;
+}

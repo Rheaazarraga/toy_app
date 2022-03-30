@@ -1,14 +1,17 @@
-body {
-  background: #24c99e;
-  color: #333;
-  margin: 33px; 
-  display: block;
-  text-align-last: center;}
+  body{
+    height: calc(100vh - 8em);
+    padding: 4em;
+    color: rgba(255,255,255,.75);
+    background-color: rgb(124, 124, 124);  
+    text-align-last: center;
+  }
+
 
 body, p, ol, ul, td {
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  line-height: 18px; }
+  font-size: 1em;
+  padding: 4em auto;
+  line-height: 35px; }
 
 pre {
   background: #24c99e;
@@ -16,10 +19,10 @@ pre {
   font-size: 11px; }
 
 a {
-  color: #000; }
+  color: rgb(204, 93, 198); }
 
 a:visited {
-  color: #666; }
+  color: rgb(84, 181, 194); }
 
 a:hover {
   color: #fff;
@@ -40,12 +43,12 @@ div.actions {
 
 .field_with_errors {
   padding: 2px;
-  background-color: red;
+  background-color: rgb(204, 58, 58);
   display: table; }
 
 #error_explanation {
   width: 450px;
-  border: 2px solid red;
+  border: 2px solid rgb(204, 58, 58);
   padding: 7px 7px 0;
   margin-bottom: 20px;
   background-color: #f0f0f0; }
@@ -83,4 +86,25 @@ table {
 .button {
   border-radius: 12px;
   font-size: large;
+}
+
+.line-1{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 1.5s steps(12),
+    blink-caret 1s step-end;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  100% { border-color: transparent }
 }

@@ -1,19 +1,20 @@
 body {
   height: calc(100vh - 8em);
-  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: rgba(255,255,255,.75);
-  background-color: rgb(124, 124, 124);  
-  text-align-last: center;}
+  background-color: rgb(124, 124, 124); 
+  text-align: center;}
 
 
 body, p, ol, ul, td {
   font-family: 'Poppins', sans-serif;
-  font-size: 1em;
   line-height: 35px;}
   
 
 pre {
-  background: #24c99e;
+  background: rgb(124,124,124);
   padding: 10px;
   font-size: 11px; }
 
@@ -54,11 +55,9 @@ div.actions {
   background-color: rgb(124, 124, 124); }
 
 #error_explanation h2 {
-  text-align: left;
   font-weight: bold;
-  padding: 5px 5px 5px 15px;
   font-size: 12px;
-  margin: -7px -7px 0;
+  margin: -8px -8px 0;
   background-color: orange;
   color: #fff; }
 
